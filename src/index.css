@@ -1,0 +1,107 @@
+:root {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter,
+    system-ui,
+    Avenir,
+    Helvetica,
+    Arial,
+    sans-serif;
+  max-width: 100%;
+  background-color: #F5EDE8;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 350px;
+  margin: 20px auto;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  padding: 20px;
+  background-color: #290F0B;
+  color: #F5EDE8;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.site-card {
+  border-bottom: 2px solid #CAB2AA;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.site-card .site-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-card .both-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.site-card .btn {
+  border: 1px solid #CAB2AA;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #290F0B;
+  background-color: #F5EDE8;
+}
+
+.plugin-list {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.plugin-list .plugin-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: 1px solid #CAB2AA;
+  border-radius: 5px;
+}
+
+
+.footer {
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer p {
+  font-size: .8rem;
+  color: rgb(122, 121, 121);
+}
+
+.footer p a {
+  color: rgb(122, 121, 121);
+  text-decoration: underline;
+}

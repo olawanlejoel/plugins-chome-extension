@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Kinsta Plugins Manager - Thanks to Kinsta API",
+    "description": "This extension allows you to manage your WordPress site's plugin from Kinsta's MyKinsta dashboard via Kinsta API.",
+    "version": "0.1.0",
+    "icons": {
+        "48": "kinsta-icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://my.kinsta.com/*"
+    ]
+}
